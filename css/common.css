@@ -66,3 +66,13 @@ section {
         color: var(--secondary-color);
     }
 }
+
+.elipsis {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    &:hover {
+        -webkit-line-clamp: unset;
+    }
+}
